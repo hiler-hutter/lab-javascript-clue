@@ -87,6 +87,8 @@ const weaponsArray = [
 // ITERATION 2
 
 function selectRandom(arr) {
+
+  //we select an object from the array suspect randomly
   const randomElement = arr[Math.floor(Math.random() * arr.length)];
 
   return randomElement
